@@ -1,0 +1,146 @@
+/* BASE COLORS */
+$orange-1: #FF4800;
+$orange-2: #ff670e;
+$orange-3: rgba(255, 72, 0, 0.25);
+$orange-4: #fff1d2;
+$gray-1: #fff;
+$gray-2: #F6FAFC; /* card bg */
+$gray-3: #FBFCFD; /* table column even */
+$gray-4: #EDF3F6; /* table column odd, card box bg */
+$gray-5: #D9E3E8; /* table header bg */
+$gray-6: #C3CCD5; /* table header border */
+$gray-7: #A7B8C3; /* pagination bg/border hover */
+$gray-8: #778D9B; /* pagination bg/border, table header active */
+$gray-9: #000; /* Card title */
+$default-radius: 0.3rem;
+
+/* PALETTE LAYOUT */
+$custom-body-bg: $gray-6;
+$custom-login-bg: transparent;
+$custom-login-form-bg: #fff;
+/* PALETTE TABLE */
+$custom-table-th-bg: $gray-5;
+$custom-table-th-bg-active: $gray-8;
+$custom-table-th-text: $gray-8;
+$custom-table-th-text-active: $gray-1;
+$custom-table-th-text-active-hover: $orange-1;
+$custom-table-th-border: $gray-6;
+$custom-table-td-bg: $gray-3;
+$custom-table-td-bg-odd: $gray-4;
+$custom-table-td-text: $gray-8;
+$custom-table-td-border: $gray-5;
+$custom-table-td-icon: $orange-1;
+$custom-table-td-icon-hover: $orange-2;
+/* PALETTE PAGINATION */
+$custom-pagination-bg: $gray-8;
+$custom-pagination-bg-hover: $gray-7;
+$custom-pagination-bg-active: $orange-1;
+$custom-pagination-text: $gray-2;
+$custom-pagination-border: $gray-8;
+$custom-pagination-border-hover: $gray-7;
+$custom-pagination-border-active: $orange-1;
+/* PALETTE LIST GROUP */
+$custom-list-group-background-active: #f8f9fa; /* Bootstrap default color */
+$custom-list-group-text-active: #495057; /* Bootstrap default color */
+$custom-list-group-border-active: rgba(0, 0, 0, 0.125); /* Bootstrap default color */
+$custom-list-group-border-left-active: $orange-1;
+/* PALETTE BUTTONS */
+$custom-button-primary-bg: $orange-1;
+$custom-button-primary-bg-hover: $orange-2;
+$custom-button-primary-text: $gray-1;
+$custom-button-primary-text-hover: $gray-1;
+$custom-button-primary-border: $gray-2;
+$custom-button-primary-border-hover: $orange-1;
+/* PALETTE CARDS */
+$custom-card-bg: $gray-2;
+$custom-card-text: $gray-8;
+$custom-card-header-bg: $orange-1;
+$custom-card-header-text: $gray-1;
+$custom-card-body-title: $gray-9;
+$custom-card-box-bg: $gray-4;
+$custom-card-box-text-active: $orange-1;
+$custom-card-box-border: $gray-5;
+/* PALETTE DROPDOWN */
+$custom-dropdown-bg: $gray-4;
+$custom-dropdown-border: $orange-1;
+$custom-dropdown-panel-bg-hover: $gray-8;
+$custom-dropdown-panel-text: $gray-8;
+$custom-dropdown-panel-text-hover: $gray-1;
+$custom-dropdown-panel-border: $gray-5;
+/* PALETTE FORM */
+$custom-form-focus-border: $gray-7;
+$custom-form-focus-border-invalid: $orange-1;
+$custom-form-focus-shadow: $gray-6;
+$custom-form-focus-shadow-invalid: $orange-3;
+$custom-form-input-bg: $gray-4;
+$custom-form-input-text: $gray-8;
+$custom-form-input-border: $gray-6;
+$custom-form-input-group-bg: $orange-1;
+$custom-form-input-group-text: $gray-1;
+$custom-form-input-group-border: $gray-6;
+$custom-form-fieldset-bg: $gray-3;
+$custom-form-fieldset-border: $gray-6;
+$custom-form-fieldset-legend-bg: $orange-1;
+$custom-form-fieldset-legend-text: $gray-1;
+$custom-form-fieldset-required-text: $orange-1;
+$custom-form-select-bg: $orange-1;
+$custom-form-select-bg-active: $orange-3;
+$custom-form-select-text: $gray-1;
+$custom-form-select-text-active: $orange-1;
+$custom-form-select-arrow: $orange-1;
+$custom-form-datepicker: $orange-1;
+$custom-form-radio-bg: $orange-1;
+$custom-form-radio-text: $gray-1;
+$custom-form-radio-border: $orange-1;
+$custom-form-switch-on-bg: $orange-1;
+$custom-form-switch-on-text: $gray-8;
+$custom-form-switch-on-border: $orange-1;
+$custom-form-switch-off-bg: $gray-4;
+$custom-form-switch-off-text: $gray-8;
+$custom-form-switch-off-border: $gray-6;
+/* PALETTE MODAL */
+$custom-modal-bg: $gray-2;
+$custom-modal-text: $gray-8;
+$custom-modal-header-bg: rgba(0, 0, 0, 0.03);
+$custom-modal-header-text: $gray-9;
+$custom-modal-header-border: rgba(0, 0, 0, 0.125);
+/* PALETTE TOAST */
+$custom-toast-bg: $gray-4;
+$custom-toast-text: $orange-1;
+/* PALETTE ACCORDION */
+$custom-accordion-header-bg: $gray-4;
+$custom-accordion-header-text: $gray-8;
+$custom-accordion-badge-bg: $orange-1;
+$custom-accordion-badge-text: $gray-1;
+$custom-accordion-link-text: $gray-1;
+/* PALETTE CALENDAR */
+$custom-calendar-header-bg: $gray-2;
+$custom-calendar-badge-bg: $orange-1;
+$custom-calendar-badge-text: $gray-1;
+$custom-calendar-day-bg: $gray-4;
+$custom-calendar-day-text: $orange-1;
+$custom-calendar-today-bg: $orange-4;
+$custom-calendar-event-bg: $orange-1;
+$custom-calendar-event-text: $gray-1;
+$custom-calendar-event-border: $orange-1;
+/* PALETTE TAB */
+$custom-tab-text: $gray-8;
+$custom-tab-border: $gray-6;
+$custom-tab-active-bg: $gray-4;
+$custom-tab-active-text: $orange-1;
+$custom-tab-vertical-bg: $gray-8;
+$custom-tab-vertical-bg-active: $gray-2;
+$custom-tab-vertical-text: $gray-1;
+$custom-tab-vertical-text-active: $orange-1;
+/* PALETTE WIZARD */
+$custom-wizard-bg: $gray-8;
+$custom-wizard-active-bg: $orange-1;
+/* PALETTE MISCELLANEOUS */
+$custom-link-text: $gray-8;
+$custom-link-text-hover: $orange-1;
+$custom-separator-border: $gray-6;
+$custom-spinner: $gray-1;
+$custom-spinner-active: $orange-1;
+$custom-scroller-bg: $gray-2;
+$custom-scroller-bg-active: $orange-1;
+$custom-primary-text: $orange-1;
