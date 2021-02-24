@@ -1,0 +1,27 @@
+@import '../../../../../styles/palette';
+@import '../../../../../styles/mixins/mixins';
+
+header {
+  @include default_style($gray-2, $gray-8, null, null);
+  border-top: solid 6px $orange-1;
+  height: 100px;
+
+  .logo, .menu {
+    margin-top: 23px;
+  }
+
+  .menu {
+    .menu-separator {
+      @include default_style(null, $gray-8, null, null);
+      margin: 0 20px;
+    }
+
+    .list-inline-item:hover {
+      @include default_style(null, $orange-1, null, null);
+    }
+  }
+
+  .select-custom {
+    width: 300px;
+  }
+}
